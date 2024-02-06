@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Source\Enums\AgeRating.cs" />
+    <Compile Include="Source\Content\Content.cs" />
+    <Compile Include="Source\Content\ContentBase.cs" />
+    <Compile Include="Source\Content\ContentBuilder.cs" />
+    <Compile Include="Source\Time\Duration.cs" />
+    <Compile Include="Source\Enums\Genre.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Authentication\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

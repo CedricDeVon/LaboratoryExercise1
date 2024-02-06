@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LaboratoryExercise1.User">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source\Authentication\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaboratoryExercise1.Content">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAqBEAAAAIABAAAAAAAAAAAAAAQAAEAgAA=</HashCode>
+      <FileName>Source\Content\Content.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AgeRating" />
+      <Property Name="Duration" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Genres" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LaboratoryExercise1.ContentBuilder">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAqBEAAAAIAAAAAAAIAgAAAAAAQAAEAgAA=</HashCode>
+      <FileName>Source\Content\ContentBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="content" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LaboratoryExercise1.Duration">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Source\Time\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaboratoryExercise1.Source.ContentBase">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAiIAAAAABAAAAQAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Source\Content\ContentBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="paidUsers" />
+      <Field Name="content" />
+      <Property Name="PaidUsers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="LaboratoryExercise1.AgeRating">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAI=</HashCode>
+      <FileName>Source\Enums\AgeRating.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LaboratoryExercise1.Genre">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source\Enums\Genre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
